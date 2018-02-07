@@ -20,7 +20,9 @@ function doWhileLoop(array){
 }
 do {
   console.log('doo');
+  array.pop();
+  return array
 }
 while (maybeTrue(array.length > 0 && maybeTrue()));
-return array
+
 }
