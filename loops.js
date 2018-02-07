@@ -19,7 +19,7 @@ function doWhileLoop(array){
   return Math.random() >= 0.5
 }
 do {
-  console.log('doo-bee-doo-bee-doo');
+  console.log('doo-bee-doo-bee');
 }
 while (maybeTrue(array.length > 0 && maybeTrue()));
 return array
