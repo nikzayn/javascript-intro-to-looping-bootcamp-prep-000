@@ -19,7 +19,7 @@ function doWhileLoop(array){
   return Math.random() >= 0.5
 }
 do {
-  array.pop();
+  array.pop(); //To get the array length false, that's why pop is used.
 }
 while (maybeTrue(array.length > 0 && maybeTrue()));
 return array;
